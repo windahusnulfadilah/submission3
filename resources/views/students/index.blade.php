@@ -5,7 +5,7 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
-                        <h2>Laravel 8 CRUD (Create, Read, Update and Delete)</h2>
+                        <h2>Data Mahasiswa (Create, Read, Update and Delete)</h2>
                     </div>
                     <div class="card-body">
                         <a href="{{ url('/student/create') }}" class="btn btn-success btn-sm" title="Add New Student">
@@ -17,10 +17,10 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>No</th>
-                                        <th>Name</th>
-                                        <th>Address</th>
-                                        <th>Mobile</th>
+                                        <th>id</th>
+                                        <th>name</th>
+                                        <th>nim</th>
+                                        <th>alamat</th>
                                         <th>Actions</th>
                                     </tr>
                                 </thead>
